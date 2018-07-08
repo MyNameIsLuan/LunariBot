@@ -7,7 +7,7 @@ const prefixow = preferencias.prefixow;
 const fs = require('fs');
 var comandos = new Discord.Collection();
 
-client.login(process.env.LunariTOKEn);
+client.login(process.env.LunariTOKEN);
 
 
 client.on('ready', () =>{
