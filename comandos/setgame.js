@@ -6,6 +6,6 @@ module.exports.run = async (client, message, args) =>{
         let mensg = args.join(" ");
         if(!mensg)
            return message.channel.send("Digite a msg do jogo")
-        client.user.setPresence({ game: { name: `${mensg}`, type: 1 } });
+        client.user.setPresence({ game: { name: `${mensg}`, type: 0 } });
         message.reply(`jogo setado para: ${mensg}`)
     }
