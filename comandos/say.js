@@ -18,7 +18,7 @@ module.exports.run = async (client, message, args) =>{
 
 
     
-    message.channel.send(`**AVISO**\z\z{mensg}`)
+    message.channel.send(mensg)
 
 }
 }
