@@ -9,16 +9,16 @@ module.exports.run = async (client, message, args) =>{
     if(!mensg)
        return message.channel.send("Digite a msg do aviso!")
        
-    const anuncio = new Discord.RichEmbed()
-       .setColor("0cff00")
-       .setAuthor("Anúncio", "https://cdn.discordapp.com/emojis/460264772869554176.gif")
+ 
+ 
+
        
-       .setDescription(mensg)
-       
-       .setTimestamp()
+
+
+
 
     
-    message.channel.send("@everyone" ,anuncio)
+    message.channel.send(`**AVISO**\z\z{mensg}`)
 
 }
 }
