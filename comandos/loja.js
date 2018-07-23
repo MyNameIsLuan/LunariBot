@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) =>{
        .setColor("0cff00")
        .setAuthor("Loja")
        
-       .setDescription("A nossa loja está em construção!\nAguarde!")
+       .setDescription("Acesse nossa loja por esse link: [Clique aqui](loja-harley.tk)!")
        
        .setTimestamp()
        .setFooter(`Comando executado por: ${message.author.tag}`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
