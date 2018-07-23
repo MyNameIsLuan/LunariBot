@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) =>{
       .addField(':inbox_tray: Entrou nesse servidor em:', dateFormat(member.joinedAt, 'dd/mm/yyyy') + " às " + dateFormat(member.joinedAt, 'H:MM'))
       .addField(':inbox_tray: Conta criada em:', dateFormat(member.user.createdAt, 'dd/mm/yyyy') + " às " + dateFormat(member.user.createdAt, 'H:MM'))
       .setColor("#00a4ce")
-      .setFooter("© Kally")
+      .setFooter("© HarleyBOT")
    
       message.channel.send(info)
    
@@ -37,7 +37,7 @@ module.exports.run = async (client, message, args) =>{
     .addField(':inbox_tray: Entrou nesse servidor em:', dateFormat(message.author.joinedAt, 'dd/mm/yyyy') + " às " + dateFormat(message.author.joinedAt, 'H:MM'))
     .addField(':inbox_tray: Conta criada em:', dateFormat(message.author.createdAt, 'dd/mm/yyyy') + " às " + dateFormat(message.author.createdAt, 'H:MM'))
     .setColor("#00a4ce")
-    .setFooter("© LunariBOT")
+    .setFooter("© HarleyBOT")
  
     message.channel.send(info)
       
