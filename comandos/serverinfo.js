@@ -21,7 +21,7 @@ module.exports.run = async (client, message, args) =>{
     .setThumbnail(servericon)
      
     .setTimestamp()
-    .setFooter("LunariBOT????", client.user.avatarURL);
+    .setFooter("HarleyBOT????", client.user.avatarURL);
   
     message.channel.send(serverinfo)
     
