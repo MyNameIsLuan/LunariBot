@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) =>{
        .setColor("0cff00")
        .setAuthor("Twitter")
        
-       .setDescription("o TWITTER de nossa rede ATUALMENTE é: @LunariOFC\n\nAcesse já: [Clique Aqui](https://twitter.com/LunariOFC)")
+       .setDescription("o TWITTER de nossa rede ATUALMENTE é: @HarleyMC_\n\nAcesse já: [Clique Aqui](https://twitter.com/HarleyMC_)")
        
        .setTimestamp()
        .setFooter(`Comando executado por: ${message.author.tag}`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
