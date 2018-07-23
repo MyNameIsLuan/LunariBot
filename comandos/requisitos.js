@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) =>{
        .setColor("0cff00")
        .setAuthor("Requisitos")
        
-       .setDescription("Nossos requisitos para obter TAGS dentro da rede são:\n\nYT: 300 inscritos + vídeo no servidor\nSemipro: 50 inscritos + video no servidor\nDivulgador: 10 inscritos + vídeo no servidor\n\nCaso tenha os requisitos contate um **staff**!")
+       .setDescription("Nossos requisitos para obter TAGS dentro da rede são:\n\nYT: 300 inscritos + 100 Views + vídeo no servidor\nStream:150 inscritos + video no servidor e Lives Semanais com FEED ACEITAVEL\nSPRO: 50 inscritos + 30 views + vídeo no servidor\n\nCaso tenha os requisitos contate um **staff**!")
        
        .setTimestamp()
        .setFooter(`Comando executado por: ${message.author.tag}`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
